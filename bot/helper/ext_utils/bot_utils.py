@@ -440,11 +440,9 @@ T: {disk_t}GB | F: {disk_f}GB
 Working For: {currentTime}
 T-DL: {recv} | T-UL: {sent}
 
-Made with ❤️ by Dawn
+Edited by Dawn India 🇮🇳
 """
 
-#---Thanks for deleting my name ❤️ Appreciate it---#
-#---Remove this line too, who cares---#
 
 dispatcher.add_handler(CallbackQueryHandler(refresh, pattern=f"^{str(ONE)}$"))
 dispatcher.add_handler(CallbackQueryHandler(close, pattern=f"^{str(TWO)}$"))
